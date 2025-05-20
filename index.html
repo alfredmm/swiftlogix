@@ -139,6 +139,10 @@
                             <a href="#" class="service-link" data-page="supply-chain">Learn More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
+                    <!-- Button to see more services from services page-->
+                </div>
+                <div class="see-more-wrapper">
+                    <a href="index.html#services" data-page="services" class="see-more-button">See More Services</a>
                 </div>
             </div>
         </section>
@@ -718,10 +722,10 @@
                 const updateStat = () => {
                     current += increment;
                     if (current < target) {
-                        stat.textContent = Math.floor(current) + (index === 0 ? '' : '');
+                        stat.textContent = Math.floor(current) + (index === 0 ? '+' : '+');
                         requestAnimationFrame(updateStat);
                     } else {
-                        stat.textContent = target + (index === 0 ? '' : '');
+                        stat.textContent = target + (index === 0 ? '+' : '+ ');
                     }
                 };
                 
