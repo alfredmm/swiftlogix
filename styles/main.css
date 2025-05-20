@@ -338,7 +338,7 @@
             height: 50px;
             background: var(--secondary);
             border-radius: 20%;
-            display: flex;
+            display: grid;
             align-items: center;
             justify-content: center;
             color: white;
@@ -347,7 +347,7 @@
             animation: pulse 2s infinite;
             cursor: pointer;
             text-align: center;
-            margin:auto;
+            margin:40px;
             border: 1px solid white;
             font-size: 14px;
         }
