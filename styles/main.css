@@ -338,7 +338,7 @@
             height: 50px;
             background: var(--secondary);
             border-radius: 20%;
-            display: grid;
+            display: flex;
             align-items: center;
             justify-content: center;
             color: white;
