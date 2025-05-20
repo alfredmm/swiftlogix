@@ -347,6 +347,9 @@
             animation: pulse 2s infinite;
             cursor: pointer;
             text-align: center;
+            margin:auto;
+            border: 1px solid white;
+            font-size: 14px;
         }
 
         .point-1 {
