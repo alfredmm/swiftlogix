@@ -1108,11 +1108,23 @@
         .thumbnail.active::after, .thumbnail:hover::after {
             background: rgba(0,0,0,0.1);
         }
-.slider-title, .slider-description {
+
+        .slider-title, .slider-description {
     color: #fff;
     text-shadow: 5px 5px 3px rgba(0,0,0,0.8);
     text-align: center;
     margin: 0;
     padding: 0 20px;
     background-color: #ff6b00;
+}
+
+/* Responsive font size for small screens */
+@media (max-width: 600px) {
+    .slider-title {
+        font-size: 18px;
+    }
+
+    .slider-description {
+        font-size: 14px;
+    }
 }
