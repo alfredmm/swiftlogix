@@ -35,10 +35,86 @@
     </header>
 
     <!-- Home Page -->
+    <!-- Amazing Slider Section -->
+    <section class="amazing-slider-section">
+        <div class="container">
+            <div class="amazing-slider">
+                <div class="slider-container">
+                    <!-- Slide 1 -->
+                    <div class="slider-slide active">
+                        <img src="https://images.unsplash.com/photo-1732435527614-8336ebd1e82c?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="slider-image" alt="Global Logistics">
+                        <div class="slider-content">
+                            <h2 class="slider-title">Global Logistics Solutions</h2>
+                            <p class="slider-description">SwiftLogix delivers innovative supply chain solutions tailored to your unique needs. Our global network ensures your goods arrive on time, every time.</p>
+                            <!--<a href="#" class="btn">Get a Quote</a>-->
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="slider-slide">
+                        <img src="https://images.unsplash.com/photo-1606964212858-c215029db704?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="slider-image" alt="Warehousing">
+                        <div class="slider-content">
+                            <h2 class="slider-title">Warehousing Solutions</h2>
+                            <p class="slider-description">State-of-the-art storage facilities with advanced inventory management and distribution capabilities.</p>
+                            <!--<a href="#" class="btn">View Facilities</a>-->
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="slider-slide">
+                        <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="slider-image" alt="Freight Shipping">
+                        <div class="slider-content">
+                            <h2 class="slider-title">Freight Shipping</h2>
+                            <p class="slider-description">Comprehensive freight solutions including air, ocean, and ground transportation tailored to your needs.</p>
+                            <!--<a href="#" class="btn">Shipping Options</a>-->
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 4 -->
+                    <div class="slider-slide">
+                        <img src="https://images.unsplash.com/photo-1645736315000-6f788915923b?q=80&w=1516&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="slider-image" alt="Supply Chain">
+                        <div class="slider-content">
+                            <h2 class="slider-title">Supply Chain Management</h2>
+                            <p class="slider-description">End-to-end supply chain management that optimizes your operations and reduces costs.</p>
+                            <!--<a href="#" class="btn">Learn More</a>-->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation Arrows -->
+                <div class="slider-arrow prev" style="background-color: #ff6b00;"><i class="fas fa-chevron-left"></i></div>
+                <div class="slider-arrow next" style="background-color: #ff6b00;"><i class="fas fa-chevron-right"></i></div>
+                
+                <!-- Dots Navigation -->
+                <div class="slider-nav">
+                    <div class="slider-dot active"></div>
+                    <div class="slider-dot"></div>
+                    <div class="slider-dot"></div>
+                    <div class="slider-dot"></div>
+                </div>
+            </div>
+            
+            <!-- Thumbnail Gallery -->
+            <div class="slider-thumbnails">
+                <div class="thumbnail active" data-index="0">
+                    <img src="https://images.unsplash.com/photo-1732435527614-8336ebd1e82c?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Global Logistics">
+                </div>
+                <div class="thumbnail" data-index="1">
+                    <img src="https://images.unsplash.com/photo-1606964212858-c215029db704?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Warehousing">
+                </div>
+                <div class="thumbnail" data-index="2">
+                    <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Freight Shipping">
+                </div>
+                <div class="thumbnail" data-index="3">
+                    <img src="https://images.unsplash.com/photo-1645736315000-6f788915923b?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Supply Chain">
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="page active" id="home">
         <!-- Hero Section -->
         <section class="hero">
-            <div class="container">
+            <div class="truck-container">
                 <div class="hero-content">
                     <h1>Global Logistics Solutions That Move Your Business Forward</h1>
                     <p>SwiftLogix delivers innovative supply chain solutions tailored to your unique needs. Our global network ensures your goods arrive on time, every time.</p>
@@ -141,9 +217,11 @@
                     </div>
                     <!-- Button to see more services from services page-->
                 </div>
+                <!--
                 <div class="see-more-wrapper">
                     <a href="index.html#services" data-page="services" class="see-more-button">See More Services</a>
                 </div>
+                -->
             </div>
         </section>
 
@@ -615,7 +693,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         // Mobile Menu Toggle
         const menuToggle = document.getElementById('menuToggle');
@@ -758,6 +836,108 @@
         if (window.scrollY > 50) {
             document.getElementById('header').classList.add('scrolled');
         }
+        $(document).ready(function() {
+            const $sliderContainer = $('.slider-container');
+            const $slides = $('.slider-slide');
+            const $dots = $('.slider-dot');
+            const $thumbnails = $('.thumbnail');
+            const slideCount = $slides.length;
+            let currentIndex = 0;
+            let slideInterval;
+            
+            // Initialize slider
+            function initSlider() {
+                // Set initial active slide
+                updateSlider();
+                
+                // Start auto slide
+                startAutoSlide();
+                
+                // Pause on hover
+                $('.amazing-slider').hover(
+                    function() {
+                        clearInterval(slideInterval);
+                    },
+                    function() {
+                        startAutoSlide();
+                    }
+                );
+            }
+            
+            // Start auto slide
+            function startAutoSlide() {
+                slideInterval = setInterval(function() {
+                    goToSlide((currentIndex + 1) % slideCount);
+                }, 3000);
+            }
+            
+            // Go to specific slide
+            function goToSlide(index) {
+                currentIndex = index;
+                updateSlider();
+            }
+            
+            // Update slider display
+            function updateSlider() {
+                // Update slider container position
+                $sliderContainer.css('transform', `translateX(-${currentIndex * 100}%)`);
+                
+                // Update active slide class
+                $slides.removeClass('active');
+                $slides.eq(currentIndex).addClass('active');
+                
+                // Update dots
+                $dots.removeClass('active');
+                $dots.eq(currentIndex).addClass('active');
+                
+                // Update thumbnails
+                $thumbnails.removeClass('active');
+                $thumbnails.eq(currentIndex).addClass('active');
+            }
+            
+            // Arrow click handlers
+            $('.slider-arrow.prev').click(function() {
+                goToSlide((currentIndex - 1 + slideCount) % slideCount);
+                resetAutoSlide();
+            });
+            
+            $('.slider-arrow.next').click(function() {
+                goToSlide((currentIndex + 1) % slideCount);
+                resetAutoSlide();
+            });
+            
+            // Dot click handlers
+            $dots.click(function() {
+                const index = $(this).index();
+                goToSlide(index);
+                resetAutoSlide();
+            });
+            
+            // Thumbnail click handlers
+            $thumbnails.click(function() {
+                const index = $(this).data('index');
+                goToSlide(index);
+                resetAutoSlide();
+            });
+            
+            // Reset auto slide timer
+            function resetAutoSlide() {
+                clearInterval(slideInterval);
+                startAutoSlide();
+            }
+            
+            // Keyboard navigation
+            $(document).keydown(function(e) {
+                if (e.keyCode === 37) { // Left arrow
+                    $('.slider-arrow.prev').click();
+                } else if (e.keyCode === 39) { // Right arrow
+                    $('.slider-arrow.next').click();
+                }
+            });
+            
+            // Initialize the slider
+            initSlider();
+        });
     </script>
 </body>
 </html>
