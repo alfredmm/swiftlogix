@@ -999,18 +999,26 @@
             transform: translateX(0);
             opacity: 1;
         }
-        
+            
+        .slider-title, .slider-description {
+        color: #fff;
+        text-shadow: 5px 5px 3px rgba(0,0,0,0.8);
+        text-align: center;
+        margin: 0;
+        padding: 0 20px;
+        background-color: #ff6b00;
+    }
+
+    /* Responsive font size for small screens */
+    @media (max-width: 600px) {
         .slider-title {
-            font-size: 2.5rem;
-            margin-bottom: 15px;
-            color: #fff;
+            font-size: 18px;
         }
-        
+
         .slider-description {
-            font-size: 1.2rem;
-            margin-bottom: 20px;
+            font-size: 14px;
         }
-        
+    }        
         .slider-nav {
             position: absolute;
             bottom: 20px;
