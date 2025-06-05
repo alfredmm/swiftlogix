@@ -1012,11 +1012,11 @@
     /* Responsive font size for small screens */
     @media (max-width: 600px) {
         .slider-title {
-            font-size: 18px;
+            font-size: 12px;
         }
 
         .slider-description {
-            font-size: 14px;
+            font-size: 10px;
         }
     }        
         .slider-nav {
