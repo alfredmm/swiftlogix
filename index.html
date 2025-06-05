@@ -25,9 +25,9 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="#" data-page="home">Home</a></li>
-                        <li><a href="#" data-page="about">About Us</a></li>
-                        <li><a href="#" data-page="services">Services</a></li>
-                        <li><a href="#" class="btn">Contact</a></li>
+                        <li><a href="#about" data-page="about">About Us</a></li>
+                        <li><a href="#services" data-page="services">Services</a></li>
+                        <li><a href="#contact" data-page="contact" class="btn">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -119,8 +119,8 @@
                     <h1>Global Logistics Solutions That Move Your Business Forward</h1>
                     <p>SwiftLogix delivers innovative supply chain solutions tailored to your unique needs. Our global network ensures your goods arrive on time, every time.</p>
                     <div class="hero-buttons">
-                        <a href="#" class="btn">Get a Quote</a>
-                        <a href="#" class="btn btn-outline" data-page="services">Our Services</a>
+                        <a href="#contact" class="btn">Get a Quote</a>
+                        <a href="#services" class="btn btn-outline" data-page="services">Our Services</a>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@
                             </div>
                             <h3>Freight Shipping</h3>
                             <p>Comprehensive freight solutions including air, ocean, and ground transportation tailored to your specific needs.</p>
-                            <a href="#" class="service-link" data-page="freight-shipping">Learn More <i class="fas fa-arrow-right"></i></a>
+                            <a href="#services" class="service-link" data-page="freight-shipping">Learn More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="service-card">
@@ -199,7 +199,7 @@
                             </div>
                             <h3>Warehousing</h3>
                             <p>State-of-the-art storage facilities with advanced inventory management and distribution capabilities.</p>
-                            <a href="#" class="service-link" data-page="warehousing">Learn More <i class="fas fa-arrow-right"></i></a>
+                            <a href="#services" class="service-link" data-page="warehousing">Learn More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="service-card">
@@ -212,7 +212,7 @@
                             </div>
                             <h3>Supply Chain Solutions</h3>
                             <p>End-to-end supply chain management that optimizes your operations and reduces costs.</p>
-                            <a href="#" class="service-link" data-page="supply-chain">Learn More <i class="fas fa-arrow-right"></i></a>
+                            <a href="#services" class="service-link" data-page="supply-chain">Learn More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- Button to see more services from services page-->
@@ -301,7 +301,7 @@
                         <div class="service-cta">
                             <h2>Join Our Growing Network</h2>
                             <p>Become part of the SwiftLogix family and experience logistics services that are as dynamic as your business.</p>
-                            <a href="#" class="btn">Contact Us</a>
+                            <a href="#contact" class="btn">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -378,7 +378,7 @@
                         <div class="service-cta">
                             <h2>Custom Solutions for Your Business</h2>
                             <p>Our team of logistics experts will work closely with you to develop a solution that addresses your specific challenges and helps you achieve your business objectives.</p>
-                            <a href="#" class="btn">Request a Consultation</a>
+                            <a href="#contact" class="btn">Get in Touch with us</a>
                         </div>
                     </div>
                 </div>
@@ -552,7 +552,7 @@
                         <div class="service-cta">
                             <h2>Optimize Your Inventory Management</h2>
                             <p>Discover how our warehousing solutions can reduce costs and improve your supply chain efficiency.</p>
-                            <a href="#" class="btn">Tour Our Facilities</a>
+                            <a href="#contact" class="btn">Contact us</a>
                         </div>
                     </div>
                 </div>
@@ -646,7 +646,81 @@
             </div>
         </section>
     </section>
+    <!-- Contact Us Section -->
+    <section class="page" id="contact">
+        <section class="contact-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Get In Touch</h2>
+                    <p>Our team is ready to assist you with any questions about our services</p>
+                </div>
 
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>Speak directly with our logistics experts</p>
+                        <a href="tel:+254702365970" class="contact-btn">
+                            <i class="fas fa-phone"></i> +254 702 365 970
+                        </a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <p>Chat with us for quick responses</p>
+                        <a href="https://wa.me/254702365970" target="_blank" class="contact-btn whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> Message Us
+                        </a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>Send us your inquiries and requests</p>
+                        <a href="mailto:info@swiftlogix.co.ke" class="contact-btn email-btn">
+                            <i class="fas fa-paper-plane"></i> Send Email
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h3>Or Send Us a Message</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select>
+                                <option value="">Select Service</option>
+                                <option value="freight">Freight Shipping</option>
+                                <option value="warehousing">Warehousing</option>
+                                <option value="supply-chain">Supply Chain</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </section>
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -665,20 +739,19 @@
                     <h3>Quick Links</h3>
                     <ul class="footer-links">
                         <li><a href="#" data-page="home"><i class="fas fa-chevron-right"></i> Home</a></li>
-                        <li><a href="#" data-page="about"><i class="fas fa-chevron-right"></i> About Us</a></li>
-                        <li><a href="#" data-page="services"><i class="fas fa-chevron-right"></i> Services</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Careers</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> News</a></li>
+                        <li><a href="#about" data-page="about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#services" data-page="services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="#contact" data-page="contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h3>Services</h3>
                     <ul class="footer-links">
-                        <li><a href="#" data-page="freight-shipping"><i class="fas fa-chevron-right"></i> Freight Shipping</a></li>
-                        <li><a href="#" data-page="warehousing"><i class="fas fa-chevron-right"></i> Warehousing</a></li>
-                        <li><a href="#" data-page="supply-chain"><i class="fas fa-chevron-right"></i> Supply Chain</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Fulfillment</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Cold Chain</a></li>
+                        <li><a href="#contact" data-page="freight-shipping"><i class="fas fa-chevron-right"></i> Freight Shipping</a></li>
+                        <li><a href="#contact" data-page="warehousing"><i class="fas fa-chevron-right"></i> Warehousing</a></li>
+                        <li><a href="#contact" data-page="supply-chain"><i class="fas fa-chevron-right"></i> Supply Chain</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Fulfillment</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Cold Chain</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
