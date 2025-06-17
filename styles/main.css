@@ -704,19 +704,28 @@
 
         @media (max-width: 768px) {
     .hero-content {
-        margin: 0 1.5rem; /* Adds more margin on small screens */
+    
+        margin: 0 1.5rem;
         padding: 0 1rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(100% - 3rem); /* Account for margins */
     }
     
     .hero-buttons {
         flex-direction: column;
         align-items: center;
         gap: 1rem;
+        margin-top: 1.5rem;
     }
     
     .hero-buttons .btn {
         width: 100%;
-        max-width: 250px; /* Prevents buttons from being too wide */
+        max-width: 250px;
+        font-size: 0.9rem; /* Slightly smaller button text */
+        padding: 0.75rem 1.5rem;
     }
 }
 
@@ -725,12 +734,29 @@
     .hero-content {
         margin: 0 1rem;
         padding: 0 0.5rem;
+        width: calc(100% - 2rem);
+        /* Keep centered positioning */
+        top: 55%; /* Slightly lower on very small screens */
+    }
+    .hero-content h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .hero-content p {
+        font-size: 0.9rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .hero-buttons .btn {
+        font-size: 0.85rem;
+        padding: 0.7rem 1.2rem;
     }
 }
         /* Responsive */
         @media (max-width: 992px) {
             .hero-content h1 {
-                font-size: 30px;
+                font-size: 36px;
             }
             
             .truck-animation {
@@ -750,7 +776,7 @@
             
             nav {
                 position: absolute;
-                top: 90px;
+                top: 80px;
                 left: 0;
                 width: 100%;
                 background: white;
@@ -773,11 +799,15 @@
             }
             
             .hero-content h1 {
-                font-size: 28px;
+                font-size: 2rem; /* Reduce from default size */
+                line-height: 1.2;
+                margin-bottom: 1rem;
             }
             
             .hero-content p {
-                font-size: 15px;
+                font-size: 1rem; /* Reduce from default size */
+                line-height: 1.4;
+                margin-bottom: 1.5rem;
             }
             
             .about-content {
@@ -796,7 +826,7 @@
 
         @media (max-width: 576px) {
             .hero-content h1 {
-                font-size: 28px;
+                font-size: 30px;
             }
             
             .btn {
@@ -1379,4 +1409,20 @@
     grid-template-columns: repeat(2, auto);
     justify-content: center;
     gap: 1rem;
+}
+.hero-section {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* For larger screens, ensure normal flow */
+@media (min-width: 769px) {
+    .hero-content {
+        position: static;
+        transform: none;
+        width: auto;
+    }
 }
