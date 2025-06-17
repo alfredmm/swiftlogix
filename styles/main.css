@@ -349,7 +349,7 @@
             min-width: 300px;
             position: relative;
             animation: fadeInRight 1s ease;
-            margin-right: 20px;
+            margin: 20px;
         }
 
         .about-image img {
@@ -379,17 +379,12 @@
         }
 
         .point-1 {
-            top: 20%;
-            left: 30%;
-        }
-
-        .point-2 {
-            top: 40%;
-            right: 20%;
+            top: 10%;
+            left: 10%;
         }
 
         .point-3 {
-            bottom: 20%;
+            bottom: 10%;
             left: 40%;
         }
 
