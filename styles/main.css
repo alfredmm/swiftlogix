@@ -730,7 +730,7 @@
         /* Responsive */
         @media (max-width: 992px) {
             .hero-content h1 {
-                font-size: 36px;
+                font-size: 30px;
             }
             
             .truck-animation {
@@ -750,7 +750,7 @@
             
             nav {
                 position: absolute;
-                top: 80px;
+                top: 90px;
                 left: 0;
                 width: 100%;
                 background: white;
@@ -773,11 +773,11 @@
             }
             
             .hero-content h1 {
-                font-size: 36px;
+                font-size: 28px;
             }
             
             .hero-content p {
-                font-size: 20px;
+                font-size: 15px;
             }
             
             .about-content {
@@ -796,7 +796,7 @@
 
         @media (max-width: 576px) {
             .hero-content h1 {
-                font-size: 30px;
+                font-size: 28px;
             }
             
             .btn {
