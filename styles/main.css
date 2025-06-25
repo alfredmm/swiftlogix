@@ -112,7 +112,8 @@
         }
 
         nav ul li a.btn {
-            padding-top: 0; /* keep it aligned as is */
+            padding: 10px; /* keep it aligned as is */
+            display: inline-block;
         }
         
         nav ul li a:not(.btn) {
@@ -759,6 +760,7 @@
         @media (max-width: 768px) {
             .menu-toggle {
                 display: block;
+
             }
             
             nav {
@@ -785,6 +787,12 @@
             nav ul li {
                 margin: 15px 0;
             }
+             nav ul li a {
+                color: #0056b3;
+            }
+            header.scrolled nav ul li a {
+            color: #0056b3;
+         }
              .logo-image {
                 max-height: 40px;
                 margin-right: 10px;
