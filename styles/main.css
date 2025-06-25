@@ -884,7 +884,7 @@
     z-index: 1;
     max-width: 800px;
     text-align: center;
-    margin: 0 auto;
+    margin: 15px auto; /* Centering the content */
 }
 
 
