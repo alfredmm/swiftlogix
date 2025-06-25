@@ -1037,6 +1037,43 @@
     background-color: #0056b3;
     outline: 2px solid rgba(255, 107, 0, 0.7)
 }
+/* Existing .service-hero-content styles (if any, for larger screens or default) */
+.service-hero-content {
+    /* Your existing styles for the hero content might be here */
+    /* For example: */
+    text-align: center;
+    color: white;
+    /* ... other styles */
+}
+
+/* --- Media Query for Small Screens --- */
+@media (max-width: 768px) { /* Adjust this breakpoint as needed (e.g., 600px, 480px) */
+    .service-hero-content {
+        padding-left: 15px; /* Add space on the left */
+        padding-right: 15px; /* Add space on the right */
+        /* Or, for equal padding on all sides, you can use: */
+        /* padding: 15px; */
+
+        /* If you want to ensure the content doesn't get too wide on small screens
+           and is centered, you might also consider: */
+        max-width: 95%; /* Limit the maximum width of the content */
+        margin-left: auto; /* Center horizontally */
+        margin-right: auto; /* Center horizontally */
+        box-sizing: border-box; /* Crucial for padding to be included within the width */
+    }
+}
+
+@media (max-width: 480px) { /* Even smaller screens, like phones in portrait */
+    .service-hero-content {
+        padding-left: 10px; /* Slightly less padding for very small screens */
+        padding-right: 10px;
+        /* Or: */
+        /* padding: 10px; */
+
+        /* You might adjust max-width further if needed */
+        max-width: 100%; /* Allow it to take full width but with padding */
+    }
+}
 /* Slider Styles */
         .amazing-slider {
             position: relative;
